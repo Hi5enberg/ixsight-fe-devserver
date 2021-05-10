@@ -1,0 +1,2 @@
+# Dev Server for ixsight frontend
+Currently has the ixsight frontend project no integrated dev server so these 4 lines of code is to preview the index.html existing in the `dist/` before pushing and deploying.
