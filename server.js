@@ -9,7 +9,6 @@ app.get(/.*/, (req, res, next) => {
         '/benchmarks/'
     ];
 
-    console.log(req.url)
     const isSpaRoute = spaRoutes.includes(req.url)
     if (isSpaRoute) req.url = '/';
     next();
